@@ -1,0 +1,66 @@
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+
+body{
+  /*background-image: linear-gradient(120deg,rgb(85, 178, 45),rgb(255, 185, 91));*/
+  background: green;
+}
+
+#head {
+  background-color:black;
+  margin-top:10px;
+  border-radius: 10px 10px 0 0;
+}
+
+#logo{
+  margin-top:10px;
+  margin-bottom:10px
+}
+
+
+#navbar {
+  background:orange;
+  border-radius: 0px 0px 10px 10px;
+
+}
+
+#navbar > div:hover {
+    background:black;
+    text-decoration: none;
+    color: white;
+    /*border: 1px;
+    border-style:solid;
+    border-color:white;*/
+}
+
+#navbar>div>a {
+  color: black;
+}
+
+#navbar>div {
+  padding-top:10px;
+  padding-bottom: 10px;
+}
+
+#navbar > div:hover a{
+    text-decoration: none;
+    color:#FFF;
+}
+
+#contenido{
+  border-radius: 10px;
+  background:white;
+  margin-top:10px;
+  margin-bottom: 10px;
+}
